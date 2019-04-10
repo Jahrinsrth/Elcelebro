@@ -15,16 +15,21 @@ const Navbar = () => {
          <li> <Link to="/tourism"> Tourism </Link></li>
          <li>  <Link to="/destination"> Destinations  </Link></li>
 
+        
+         
+
+
        
               
          </ul>
 
            <ul className="right">
-           <li > <Link to="/" > Guide </Link> </li>
-           <li > <Link to="/"  > Be a Guide</Link> </li>
-           <li > <Link to="/"> Profile </Link> </li>
-           <li>  <a class="waves-effect waves-light btn">Login</a> </li>
-           <li>  <a class="waves-effect waves-light btn">Sign up</a> </li>
+           <li> <Link to="/guide"> Guide </Link></li>
+           <li>  <Link to="/beaguide"> Be a Guide  </Link></li>
+           <li> <Link to="/profile"> Profile </Link></li>
+           <li>  <Link to="/login" class="waves-effect waves-light btn">Login</Link> </li>
+           <li>  <Link to="/signup" class="waves-effect waves-light btn">Sign up</Link> </li>
+           
            </ul>
   
            <ul className="sidenav"  id="mobile-links">

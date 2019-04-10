@@ -5,7 +5,7 @@ const Tourism = () => {
   
     return(
       <div>
-          <p> tourism</p>
+        <h4> Tourism</h4>
       </div>
     )
 

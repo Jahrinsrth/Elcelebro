@@ -5,7 +5,7 @@ const Destination = () => {
   
     return(
       <div>
-          <p>  destination</p>
+        <h4> Destination</h4>
       </div>
     )
 

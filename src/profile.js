@@ -7,12 +7,30 @@ class Profile extends Component{
       return(
   <BrowserRouter> 
   <div> 
-      <Switch>
-      <Route path="/home/profile" component={Profile}  />
-     </Switch>
-   
+     <h4> Create profile </h4>
+  <form>
+    <label> Enter the name </label>
+     <input type="text" />
 
-  <h5> profile </h5>
+    <label> Enter the  Mobile number</label>
+     <input type="text" />
+  
+     <label> Comapnay name </label>
+     <input type="text" />
+
+     <label> Years of experience </label>
+     <input type="text" />
+
+     <label> Number of places guided  </label>
+     <input type="text" />
+
+     <label> No of tourist guided </label>
+     <input type="text" />
+
+     <a class="waves-effect waves-light btn">submit</a>
+  </form>
+
+ 
   </div>
   </BrowserRouter>
 

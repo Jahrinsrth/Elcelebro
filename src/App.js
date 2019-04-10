@@ -10,9 +10,14 @@ import  Destination from "./Destination"
 
 import Guide from "./Guide"
 import BeaGuide from "./BeaGuide"
-
-
+import Profile from "./profile"
+import Login from "./login"
+import Signup  from "./signup"
 class App extends Component {
+
+
+
+
   render() {
     return (
          <BrowserRouter>  
@@ -26,14 +31,17 @@ class App extends Component {
       <Route path="/tourism" component={Tourism}  />
       <Route path="/destination" component={Destination}  />
 
-      <Route  path="/home/guide" component={Guide}  />
-      <Route path="/home/beaguide" component={BeaGuide}  />
+      <Route  path="/guide" component={Guide}  />
+      <Route path="/beaguide" component={BeaGuide}  />
+      <Route path="/profile" component={Profile}  />
+      <Route path="/login" component={Login}  />
+      <Route path="/signup" component={Signup}  />
       </Switch>
 
       <p></p>
 
- 
 
+       
 
 
       </div>
